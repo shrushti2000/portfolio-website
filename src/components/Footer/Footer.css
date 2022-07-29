@@ -1,0 +1,11 @@
+.footer-section{
+    background-color: var(--primary-bg-color);
+    height: 15%;
+    padding: 1rem;
+}
+.social-media-links{
+    text-align: center;
+}
+.text{
+    text-align: center;
+}

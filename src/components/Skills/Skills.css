@@ -1,0 +1,14 @@
+.skills-container{
+    background-color:rgb(33, 37, 41);
+    color:var(--white);
+    text-align: center;
+  
+}
+.skills-heading{
+    font-size: 4rem;
+    margin: 2rem;
+}
+.skill{
+    font-size: 2rem;
+    margin: 1rem;
+}
