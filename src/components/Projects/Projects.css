@@ -1,16 +1,30 @@
 .project-section {
   width: 100%;
+  margin: 0 auto;
+ 
 }
 .project-card-container {
-  width: 40rem;
+  width: 60%;
   height: fit-content;
-  margin: 2rem;
+  margin: 2rem auto;
   box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
-  min-height: 40rem;
+  min-height: 20rem;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 }
+
 .project-img {
-  width: 40rem;
-  height: 50%;
+  width: 50%;
+ 
+  
+}
+
+.card-section-2{
+  padding: 1rem;
+  width: 50%;
 }
 .project-card-title {
   font-size: 3rem;
@@ -19,10 +33,15 @@
 .project-card-desc {
   font-size: 1.5rem;
   margin: 0.5rem;
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Ibarra Real Nova', serif;
 }
 .section-title {
   font-size: 4rem;
   text-align: center;
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Ibarra Real Nova', serif;
+  text-decoration: underline;
 }
 a {
   text-decoration: none;
@@ -53,4 +72,18 @@ a {
 .live-link:hover {
   background-color: var(--primary-bg-color);
   color: var(--secondary-text-color);
+}
+
+@media only screen and (max-width: 600px) {
+  .project-card-container{
+    flex-direction:column ;
+    width: 80%;
+  }
+  
+.project-img{
+  width: 100%;
+}
+.card-section-2{
+  width: 100%;
+}
 }

@@ -5,13 +5,15 @@ const Projects = () => {
   return (
     <div className="project-section flex-vt" id="projects">
       <h3 className="section-title">My Projects</h3>
-      <div className="flex-hz ">
-        <div className="project-card-container flex-vt">
+     
+      <div className="flex-vt">
+        <div className="project-card-container">
+          
           <img
             className="project-img"
             src="https://res.cloudinary.com/shrushti23/image/upload/v1658569974/adornui-img_o0ssjt.png"
           />
-          <div className="project-card-title">Adorn UI</div>
+           <div className="card-section-2 flex-vt">  <div className="project-card-title">Adorn UI</div>
           <div className="project-card-desc">
             Adorn-UI is a CSS Component Library to build beautiful User
             Interfaces easily. Supports many of the most frequently used UI
@@ -25,13 +27,14 @@ const Projects = () => {
             <a href="https://adorn-ui.netlify.app/">
               <p className="project-link live-link">View Live</p>
             </a>
-          </div>
+          </div></div>
         </div>
-        <div className="project-card-container">
+        <div className="project-card-container flex-hz">
           <img
             className="project-img"
             src="https://res.cloudinary.com/shrushti23/image/upload/v1658571005/naaricare-img_dnyauf.png"
           />
+           <div className="card-section-2 flex-vt"> 
           <div className="project-card-title">Naari care</div>
           <div className="project-card-desc">
             Naari-Care is an e-commerce web application to buy all women
@@ -48,12 +51,14 @@ const Projects = () => {
               </a>
             </div>
           </div>
+          </div>
         </div>
-        <div className="project-card-container">
+        <div className="project-card-container flex-hz">
           <img
             className="project-img"
             src="https://res.cloudinary.com/shrushti23/image/upload/v1658571217/diva-connect_howkej.png"
           />
+           <div className="card-section-2 flex-vt"> 
           <div className="project-card-title">Diva Connect</div>
           <div className="project-card-desc">
             Diva Connect is a social media application to connect with amazing
@@ -70,11 +75,13 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className="project-card-container">
+        </div>
+        <div className="project-card-container flex-hz">
           <img
             className="project-img"
             src="https://res.cloudinary.com/shrushti23/image/upload/v1658571401/diva-tv_bw9do0.png"
           />
+           <div className="card-section-2 flex-vt"> 
           <div className="project-card-title">Diva TV</div>
           <div className="project-card-desc">
             • Diva TV is a video library app for all beauty, makeup, fashion
@@ -90,13 +97,15 @@ const Projects = () => {
                 <p className="project-link live-link">View Live</p>
               </a>
             </div>
+            </div>
           </div>
         </div>
-        <div className="project-card-container">
+        <div className="project-card-container flex-hz">
           <img
             className="project-img"
             src="https://res.cloudinary.com/shrushti23/image/upload/v1658571552/keep_app_li6jw7.png"
           />
+           <div className="card-section-2 flex-vt"> 
           <div className="project-card-title">Keep App</div>
           <div className="project-card-desc">
             Keep app is a simple notes taking app similar to Google Keep which
@@ -112,6 +121,8 @@ const Projects = () => {
             </a>
           </div>
         </div>
+        </div>
+        
       </div>
     </div>
   );
