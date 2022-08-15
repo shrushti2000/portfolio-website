@@ -1,23 +1,20 @@
-.skills-container{
-    /* background-color:rgb(33, 37, 41); */
-    color:var(--primary-bg-color);
-    text-align: center;
-    margin: 0px auto;
-  
+.skills-container {
+  color: var(--primary-bg-color);
+  text-align: center;
+  margin: 0px auto;
 }
-.skills-heading{
-    font-size: 4rem;
-    margin: 2rem;
-    text-align: center;
+.skills-heading {
+  font-size: 4rem;
+  margin: 2rem;
+  text-align: center;
 }
-.skill{
-    font-size: 2rem;
-    margin: 1rem;
+.skill {
+  font-size: 2rem;
+  margin: 1rem;
 }
-.prog-lang-icon{
-    font-size: 4rem;
-    width: 7rem;
-    height: 7rem;
-    margin: 1rem 3rem;
-
+.prog-lang-icon {
+  font-size: 4rem;
+  width: 7rem;
+  height: 7rem;
+  margin: 1rem 3rem;
 }

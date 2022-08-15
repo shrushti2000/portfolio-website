@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Josefin+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Josefin+Slab&family=Open+Sans:wght@300&display=swap");
 /**
 font-family: 'Ibarra Real Nova', serif;
 font-family: 'Josefin Slab', serif;
 **/
-html{
+html {
   font-size: 62.5%;
   margin: 0px;
   padding: 0px;
-  font-family: 'Josefin Slab', serif;
+  font-family: "Josefin Slab", serif;
 }
 :root {
   --primary-bg-color: #e2c2b9;
@@ -16,23 +16,22 @@ html{
   --secondary-text-color: #696969;
   --black: #323232;
   --white: #ffffff;
-  --grey: #BEBEBE;
+  --grey: #bebebe;
 }
-.flex-hz{
+.flex-hz {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
- 
 }
-.flex-vt{
+.flex-vt {
   display: flex;
   flex-direction: column;
 }
-.jc-sa{
-justify-content: space-around;
+.jc-sa {
+  justify-content: space-around;
 }
-@media screen  and (max-width:600px){
-  html{
-    font-size:50%;
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 50%;
   }
 }

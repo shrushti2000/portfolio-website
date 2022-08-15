@@ -1,40 +1,45 @@
-.hero-container{
-    width: 80%;
-    margin: 4px auto;
-    height: fit-content;
-    padding: 2rem;
-    
-    /* background-color:rgb(33, 37, 41); */
-    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    margin: 10px auto; */
-    /* box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset; */
-
+.hero-container {
+  width: 100%;
+  margin: 4px auto;
+  height: fit-content;
+  padding: 2rem;
+  background-image: linear-gradient(
+    #694e4e,
+    #f3c5c5,
+    #f3c5c5,
+    #f5e8c7,
+    #ffffff,
+    #ffffff
+  );
 }
 .hero-row {
-    margin: 5px auto;
-    text-align: center;
-    color: var(--secondary-bg-color);
+  margin: 5px auto;
+  text-align: center;
+  color: var(--secondary-bg-color);
 }
-.hero-text-primary{
-    font-size: 5rem;
-    font-family: 'Ibarra Real Nova', serif;
+.hero-text-primary {
+  font-size: 5rem;
+  font-family: "Ibarra Real Nova", serif;
 }
-.profile-img{
-   border-radius: 50%;
-    height: 32rem;
-    width: 30rem;
+.profile-img {
+  border-radius: 50%;
+  height: 32rem;
+  width: 30rem;
 }
-.highlight-text{
-    color: #694E4E;
+.highlight-text {
+  color: #694e4e;
 }
-.hero-text-secondary{
-    font-size: 2.5rem;
-    font-family: 'Ibarra Real Nova', serif;
-    color:var(--black);
+.hero-text-secondary {
+  font-size: 2.5rem;
+  font-family: "Josefin Slab", serif;
+  width: 80%;
+  text-align: center;
+  margin: 0px auto;
+  font-weight: bold;
+  color: var(--black);
 }
-.hero-text-desc{
-    font-size: 1.5rem;
-    font-family: 'Josefin Slab', serif;
-    text-align: center;
+.hero-text-desc {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
 }
