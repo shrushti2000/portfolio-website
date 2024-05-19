@@ -4,6 +4,15 @@ import "./Projects.css";
 const Projects = () => {
   return (
     <div className="project-section flex-vt" id="projects">
+         <h3 className="section-title" style={{"textAlign":"center"}}>Experience</h3>
+         <div className="flex-vt" style={{width:"60%",margin:"10px auto"}}>
+          <p className="project-card-title" style={{fontWeight:700}}>Frontend Developer</p>
+          <h4 className="project-card-title" >Media.net </h4>
+          <h5 className="project-card-title" style={{"fontSize":"20px",fontStyle:'italic'}}>November 2022 - Present</h5>
+          <p className="project-card-desc">
+            Designed and implemented dynamic, responsive user interfaces for lead generation applications using React and JavaScript. Enhanced web page performance and user experience, leading to improved lead conversion rates.</p>
+          
+         </div>
       <h3 className="section-title">My Projects</h3>
 
       <div className="flex-vt">
